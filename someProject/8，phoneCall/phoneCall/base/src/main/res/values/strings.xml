@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">phoneCall</string>
+    <string name="text">请输入手机号</string>
+    <string name="call">拨打电话</string>
+</resources>
