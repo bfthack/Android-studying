@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     if(mediaPlayer != null){
                         if (mediaPlayer.isPlaying()){
                             mediaPlayer.stop();
+                            mediaPlayer.prepare();//stop后只有先prepare才能再次start
                             Toast.makeText(MainActivity.this,"stop 播放",Toast.LENGTH_SHORT).show();
                         }else {
                             mediaPlayer.start();
